@@ -23,6 +23,7 @@ Feel free to customize this project template according to your specific requirem
 ## Table of documentation Contents
 
 - [genimage.cfg](docs/genimage.md)
+- [linux_kernel_defconfig](docs/linux_kernel_defconfig.md)
 - [x86_64_qemu_defconfig](docs/x86_64_qemu_defconfig.md)
 - [interfaces](docs/interfaces.md)
 - [sshd_config](docs/ssh_server.md)

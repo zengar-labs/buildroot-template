@@ -11,6 +11,8 @@ This configuration file is used to define the build settings for a specific proj
 - `BR2_ROOTFS_POST_IMAGE_SCRIPT="../base_external/scripts/post-image.sh"`: Specifies the post-image script to be executed after generating the root file system image.
 - `BR2_LINUX_KERNEL=y`: Enables the usage of the Linux kernel.
 - `BR2_LINUX_KERNEL_USE_ARCH_DEFAULT_CONFIG=y`: Uses the default configuration for the selected architecture.
+- `BR2_LINUX_KERNEL_USE_CUSTOM_CONFIG=y`: Uses a custom configuration for the selected architecture
+- `BR2_LINUX_KERNEL_CUSTOM_CONFIG_FILE="../base_external/configs/linux_kernel_defconfig"` : Points to the custom kernel configuration
 - `BR2_LINUX_KERNEL_INSTALL_TARGET=y`: Installs the Linux kernel image to the target system.
 - `BR2_PACKAGE_OPENSSH=y`: This line enables the OpenSSH package in the build. OpenSSH is a suite of secure networking utilities that provides secure remote login, file transfer, and tunneling capabilities. Enabling this option allows the inclusion of OpenSSH in the generated root filesystem.
 - `BR2_TARGET_ROOTFS_EXT2=y`: Builds the root file system as an EXT2 file system.
