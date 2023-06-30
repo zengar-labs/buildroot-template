@@ -120,9 +120,7 @@
 
 - `CONFIG_PCI_MSI`: Enabling this option provides support for MSI (Message Signaled Interrupts) on PCI devices, which allows devices to generate interrupts using message-based signaling.
 
-- `CONFIG_HOTPLUG_PCI`: This option enables support for hot-plugging PCI devices, allowing the system
-
- to detect and handle the addition or removal of PCI devices while the system is running.
+- `CONFIG_HOTPLUG_PCI`: This option enables support for hot-plugging PCI devices, allowing the system to detect and handle the addition or removal of PCI devices while the system is running.
 
 - `CONFIG_PCCARD`: Enabling this option provides support for PCMCIA (Personal Computer Memory Card International Association) devices, allowing the system to detect and use PCMCIA cards.
 
@@ -168,9 +166,7 @@
 
 - `CONFIG_TCP_MD5SIG`: Enabling this option provides support for TCP MD5 signature option, which allows the use of MD5 cryptographic checksums to verify the integrity of TCP packets.
 
-- `CONFIG_INET6_AH`: Enabling this option provides support for IPv6 Authentication Header (AH), which provides authentication and integrity protection
-
- for IPv6 packets.
+- `CONFIG_INET6_AH`: Enabling this option provides support for IPv6 Authentication Header (AH), which provides authentication and integrity protection for IPv6 packets.
 
 - `CONFIG_INET6_ESP`: Enabling this option provides support for IPv6 Encapsulating Security Payload (ESP), which provides confidentiality, authentication, and integrity protection for IPv6 packets.
 
@@ -210,9 +206,7 @@
 
 - `CONFIG_NETFILTER_XT_MATCH_ESP`: Enabling this option provides support for the netfilter xt_esp module, which allows matching packets based on the ESP (Encapsulating Security Payload) protocol.
 
-- `CONFIG_NETFILTER_XT_MATCH_HASHLIMIT`: This option
-
- enables support for the netfilter xt_hashlimit module, which allows rate-limiting of packets based on hash values.
+- `CONFIG_NETFILTER_XT_MATCH_HASHLIMIT`: This option enables support for the netfilter xt_hashlimit module, which allows rate-limiting of packets based on hash values.
 
 - `CONFIG_NETFILTER_XT_MATCH_IPRANGE`: Enabling this option provides support for the netfilter xt_iprange module, which allows matching packets based on source or destination IP ranges.
 
@@ -254,9 +248,7 @@
 
 - `CONFIG_NETFILTER_XT_TARGET_NFQUEUE`: This option enables support for the netfilter xt_NFQUEUE module, which allows sending packets to user-space for further processing.
 
-- `CONFIG_NETFILTER_XT_TARGET_NOTRACK`: Enabling this option provides support for
-
- the netfilter xt_NOTRACK module, which allows excluding packets from connection tracking.
+- `CONFIG_NETFILTER_XT_TARGET_NOTRACK`: Enabling this option provides support for the netfilter xt_NOTRACK module, which allows excluding packets from connection tracking.
 
 - `CONFIG_NETFILTER_XT_TARGET_RATEEST`: This option enables support for the netfilter xt_RATEEST module, which allows estimation and tracking of packet rates.
 
@@ -296,9 +288,7 @@
 
 - `CONFIG_NETFILTER_XT_MATCH_LIMIT`: This option enables support for the netfilter xt_limit module, which allows rate-limiting of packets based on specified limits.
 
-- `CONFIG_NETFILTER_XT_MATCH_MAC`: Enabling this option provides support for the netfilter xt_mac module, which allows matching packets based
-
- on source or destination MAC addresses.
+- `CONFIG_NETFILTER_XT_MATCH_MAC`: Enabling this option provides support for the netfilter xt_mac module, which allows matching packets based on source or destination MAC addresses.
 
 - `CONFIG_NETFILTER_XT_MATCH_MARK`: This option enables support for the netfilter xt_mark module, which allows matching packets based on the netfilter mark value.
 
@@ -428,9 +418,7 @@
 
 - `CONFIG_PATA_SCH=y`: This option enables support for the Intel SCH (System Controller Hub) PATA driver. It provides support for PATA devices on systems that use the Intel SCH chipset.
 
-- `CONFIG_PATA_MPIIX=y`: This option enables support
-
- for the Matrox MPIIX (MGA I2O Input/Output eXtensions) PATA driver. It provides support for PATA devices on systems that use the Matrox MPIIX chipset.
+- `CONFIG_PATA_MPIIX=y`: This option enables support for the Matrox MPIIX (MGA I2O Input/Output eXtensions) PATA driver. It provides support for PATA devices on systems that use the Matrox MPIIX chipset.
 
 - `CONFIG_ATA_GENERIC=y`: This option enables support for generic ATA support. It provides a generic implementation for ATA devices that don't have a specific driver.
 
@@ -542,9 +530,7 @@
 
 - `CONFIG_UEVENT_HELPER=y`: This option enables support for the user-space helper program for handling uevents. When enabled, the kernel will invoke the specified uevent helper program to handle uevents.
 
-- `CONFIG_ACPI=y`: This option enables support for
-
- the ACPI (Advanced Configuration and Power Interface) subsystem. ACPI provides standardized interfaces for power management and hardware configuration on modern systems.
+- `CONFIG_ACPI=y`: This option enables support for the ACPI (Advanced Configuration and Power Interface) subsystem. ACPI provides standardized interfaces for power management and hardware configuration on modern systems.
 
 - `CONFIG_ACPI_CUSTOM_DSDT_FILE=""`: This option specifies the path to a custom DSDT (Differentiated System Description Table) file. The DSDT table contains ACPI-related information and can be customized to override or extend the default ACPI behavior.
 
